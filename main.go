@@ -1,9 +1,10 @@
 package main
 
 import (
-	hello "main/01-hello"
+	values "main/02-values"
 )
 
 func main() {
-	hello.PrintHello()
+	// hello.PrintHello()
+	values.PrintValues()
 }
