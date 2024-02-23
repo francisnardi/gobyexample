@@ -1,12 +1,17 @@
 package main
 
-import (
-	constants "main/04-constants"
-)
+import "fmt"
 
 func main() {
 	// hello.PrintHello()
 	// values.PrintValues()
 	// variables.PrintVariables()
-	constants.PrintConstants()
+	//constants.PrintConstants()
+	// fors.PrintFor()
+	for n := range 6 {
+		if n%2 == 0 {
+			continue
+		}
+		fmt.Println(n)
+	}
 }
