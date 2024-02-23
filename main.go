@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	hello.PrintHello1()
+	hello.PrintHello()
 }
