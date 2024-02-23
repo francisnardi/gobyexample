@@ -1,11 +1,12 @@
 package main
 
 import (
-	variables "main/03-variables"
+	constants "main/04-constants"
 )
 
 func main() {
 	// hello.PrintHello()
 	// values.PrintValues()
-	variables.PrintVariables()
+	// variables.PrintVariables()
+	constants.PrintConstants()
 }
