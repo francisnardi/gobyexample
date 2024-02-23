@@ -1,10 +1,11 @@
 package main
 
 import (
-	values "main/02-values"
+	variables "main/03-variables"
 )
 
 func main() {
 	// hello.PrintHello()
-	values.PrintValues()
+	// values.PrintValues()
+	variables.PrintVariables()
 }
