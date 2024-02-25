@@ -1,6 +1,6 @@
 package main
 
-import switchs "main/07-switch"
+import arrays "main/08-arrays"
 
 func main() {
 	// hello.PrintHello()
@@ -9,5 +9,6 @@ func main() {
 	// constants.PrintConstants()
 	// fors.PrintFor()
 	// ifs.PrintIf()
-	switchs.PrintSwitch()
+	// switchs.PrintSwitch()
+	arrays.PrintArrays()
 }
