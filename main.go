@@ -1,8 +1,6 @@
 package main
 
-import (
-	ifs "main/06-if"
-)
+import switchs "main/07-switch"
 
 func main() {
 	// hello.PrintHello()
@@ -10,5 +8,6 @@ func main() {
 	// variables.PrintVariables()
 	// constants.PrintConstants()
 	// fors.PrintFor()
-	ifs.PrintIf()
+	// ifs.PrintIf()
+	switchs.PrintSwitch()
 }
